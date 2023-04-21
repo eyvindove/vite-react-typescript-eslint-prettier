@@ -1,0 +1,15 @@
+# system
+.DS_Store
+
+# dependencies
+node_modules
+
+# production
+dist
+*.html
+
+# local env
+.env*.local
+
+# typescript
+vite-env.d.ts
