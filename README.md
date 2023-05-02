@@ -1,6 +1,6 @@
-# Vite + React + TypeScript + ESLint + Prettier
+# Vite + React + TypeScript + ESLint + Prettier + Vitest
 
-A boilerplate based on Vite, React, TypeScript, ESLint and Prettier.
+A boilerplate based on Vite, React, TypeScript, ESLint, Prettier, and Vitest.
 
 Find more...
 
@@ -9,6 +9,7 @@ Find more...
 - [TypeScript](https://www.typescriptlang.org/)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
+- [Vitest](https://vitest.dev/)
 
 ## Get started
 

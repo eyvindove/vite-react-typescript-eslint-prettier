@@ -35,6 +35,11 @@ const referenceConfig: ReferenceConfig[] = [
     label: 'Prettier',
     link: 'https://prettier.io/',
   },
+  {
+    id: 'vitest',
+    label: 'Vitest',
+    link: 'https://vitest.dev/',
+  },
 ]
 
 function App() {
@@ -65,7 +70,7 @@ function App() {
           />
         </a>
       </div>
-      <h1>Vite + React + TypeScript + Eslint + Prettier</h1>
+      <h1>Vite + React + TypeScript + Eslint + Prettier + Vitest</h1>
       <div className='card'>
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
