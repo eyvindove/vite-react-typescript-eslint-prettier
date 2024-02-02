@@ -4,8 +4,10 @@ A boilerplate based on Vite, React, TypeScript, ESLint, Prettier, and Vitest.
 
 Find more...
 
-- [Vite](https://vitejs.dev/)
-- [React](https://react.dev/)
+- [Node.js (^20)](https://nodejs.org/)
+- [pnpm (^8)](https://pnpm.io/)
+- [Vite (^5)](https://vitejs.dev/)
+- [React (^18.2.0)](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)

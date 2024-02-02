@@ -12,7 +12,7 @@ describe('Renders main page correctly', () => {
     await render(<App />)
 
     const h1El = await screen.queryByText(
-      'Vite + React + TypeScript + Eslint + Prettier + Vitest'
+      'Vite + React + TypeScript + ESLint + Prettier + Vitest'
     )
 
     expect(h1El).toBeInTheDocument()

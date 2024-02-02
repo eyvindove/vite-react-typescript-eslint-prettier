@@ -51,6 +51,7 @@ function App() {
         <a
           href='https://vitejs.dev'
           target='_blank'
+          rel='noreferrer'
         >
           <img
             src={viteLogo}
@@ -62,6 +63,7 @@ function App() {
         <a
           href='https://react.dev'
           target='_blank'
+          rel='noreferrer'
         >
           <img
             src={reactLogo}
@@ -70,7 +72,7 @@ function App() {
           />
         </a>
       </div>
-      <h1>Vite + React + TypeScript + Eslint + Prettier + Vitest</h1>
+      <h1>Vite + React + TypeScript + ESLint + Prettier + Vitest</h1>
       <div className='card'>
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -83,6 +85,7 @@ function App() {
             key={item.id}
             href={item.link}
             target='_blank'
+            rel='noreferrer'
           >
             {item.label}
           </a>
