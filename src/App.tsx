@@ -48,6 +48,7 @@ function App() {
   return (
     <>
       <div className='logo-block'>
+        <div>&#9786;</div>
         <a
           href='https://vitejs.dev'
           target='_blank'
@@ -71,6 +72,7 @@ function App() {
             alt='React logo'
           />
         </a>
+        <div>&#9786;</div>
       </div>
       <h1>Vite + React + TypeScript + ESLint + Prettier + Vitest</h1>
       <div className='card'>

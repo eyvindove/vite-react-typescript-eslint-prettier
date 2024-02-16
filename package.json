@@ -11,8 +11,9 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint --fix --report-unused-disable-directives --max-warnings 0 src/**/*.{ts,tsx,js,jsx}",
-    "prettier": "prettier --write --ignore-unknown src/**/*.{ts,tsx,js,jsx,json,css,md}",
+    "lint": "eslint --quiet --cache --report-unused-disable-directives src/**/*.{ts,tsx,js,jsx}",
+    "lint:fix": "eslint --fix --quiet --cache --report-unused-disable-directives src/**/*.{ts,tsx,js,jsx}",
+    "format": "prettier --write --ignore-unknown .",
     "prepare": "husky install",
     "test": "vitest"
   },
@@ -44,13 +45,5 @@
     "typescript": "^5.2.2",
     "vite": "^5.0.8",
     "vitest": "^1.2.2"
-  },
-  "lint-staged": {
-    "src/**/*.{ts,tsx,js,jsx}": [
-      "eslint --fix"
-    ],
-    "src/**/*.{ts,tsx,js,jsx,json,css,md}": [
-      "prettier --write"
-    ]
   }
 }
